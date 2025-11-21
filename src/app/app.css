@@ -70,8 +70,7 @@
 	}
 	
 	.nav-list li a:hover {
-		color: #ffd700;
-		/* Change the color on hover */
+		color: #4F2D8F;	
 	}
 
   @media screen and (max-width: 650px) {
