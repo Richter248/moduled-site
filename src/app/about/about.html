@@ -20,6 +20,10 @@
     }
     a { color: #0066cc; text-decoration: none; }
     a:hover { text-decoration: underline; }
+	
+	span.blockspam {
+	  display: none;
+	}
 
     /* -----------------------------------------------
        Container
@@ -136,16 +140,21 @@
     </section>
 
     <!-- ==================== Contact ==================== -->
-    <!--<footer class="contact">
+    <footer class="contact">
       <h2>Contact</h2>
       <ul>
-        <li>Email: <a href="mailto:johndoe@example.com">johndoe@example.com</a></li>
-        <li>LinkedIn: <a href="https://linkedin.com/in/johndoe" target="_blank"
-                         rel="noopener">linkedin.com/in/johndoe</a></li>
+			<!--
+	 * Email obfuscation helper – adapted from Chris Coyier,
+	 * “How to safely share your email address on a website,”
+	 * CSS‑Tricks (2023). https://css-tricks.com/how-to-safely-share-your-email-address-on-a-website/
+			-->
+		<li>If you want to get in touch, please drop me an email at <span class="blockspam" aria-hidden="true">Please don't spam</span> richter248@<!-- sdfjsdhfkjypcs -->duck.com</li>
+        <!--<li>LinkedIn: <a href="https://linkedin.com/in/johndoe" target="_blank"
+                         rel="noopener">linkedin.com/in/johndoe</a></li>-->
         <li>GitHub: <a href="https://github.com/Richter248" target="_blank"
                        rel="noopener">github.com/Richter248</a></li>
       </ul>
-    </footer>-->
+    </footer>
   </div>
 </body>
 </html>
