@@ -1,8 +1,4 @@
-
-
-/* Root of the component – ensures the background
-   respects the global surface colour. */
-.about-me {
+.work-history {
   background: var(--carmilla-surface);
   color: var(--carmilla-text-primary);
   border-radius: 12px;
@@ -14,13 +10,13 @@
 }
 
 /* Subtle hover for the whole card (optional) */
-.about-me:hover {
+.work-history:hover {
   background: var(--carmilla-surface-hover);
   box-shadow: 0 6px 18px rgba(0,0,0,.15);
 }
 
 /* Header */
-.about-header {
+.work-history-header {
   margin-bottom: 1rem;
 }
 .name {
@@ -32,7 +28,7 @@
   margin: .2rem 0 0;
   font-size: 1.2rem;
   font-weight: 400;
-  color: var(--carmilla-pink);
+  color: var(--carmilla-text-muted);
 }
 
 /* Bio paragraph */
@@ -63,28 +59,6 @@
   font-size: .85rem;
 }
 
-/* Skills list */
-.hobbies-heading {
-  margin-top: 2rem;
-  font-size: 1.1rem;
-  color: var(--carmilla-green);
-}
-.hobbies-list {
-  list-style: none;
-  padding: 0;
-  margin: .5rem 0 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: .6rem;
-}
-.hobbies-list li {
-  background: var(--carmilla-green);
-  color: var(--carmilla-bg);
-  padding: .3rem .7rem;
-  border-radius: 6px;
-  font-size: .85rem;
-}
-
 /* Social icons */
 .social-nav {
   margin-top: 2rem;
@@ -103,7 +77,7 @@
 
 /* Responsive tweaks */
 @media (max-width: 600px) {
-  .about-me {
+  .work-history {
     padding: 1.5rem;
   }
   .name { font-size: 1.6rem; }
