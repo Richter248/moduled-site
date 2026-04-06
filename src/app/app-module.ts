@@ -1,6 +1,6 @@
 import { NgModule, provideBrowserGlobalErrorListeners } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { MatCardModule } from '@angular/material/card';
 import { AppRoutingModule } from './app-routing-module';
 import { App } from './app';
 import { Intro } from './intro/intro';
@@ -21,6 +21,7 @@ import { WorkHistory } from './work-history/work-history';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    MatCardModule,
   ],
   providers: [
     provideBrowserGlobalErrorListeners()

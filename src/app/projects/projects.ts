@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ProjectInfo } from '../shared/projectInfo';
 
 @Component({
   selector: 'app-projects',
@@ -7,5 +8,22 @@ import { Component } from '@angular/core';
   styleUrl: './projects.css',
 })
 export class Projects {
+  public projectCards: ProjectInfo[] = [];
 
+  ngOnInit() {
+    this.projectCards = [
+      {
+          id: 0,
+          name: "ESP32 Roomba",
+          description: "ESP32 Engaging in Serial Communications with Roomba",
+          pictureUrl: "https://i.imgur.com/mAcXhtD.jpeg"
+      },
+      {
+          id: 2,
+          name: "Python Tank Enclosure",
+          description: "Uses a FeatherRP2040 and some extra components to monitor conditions in my pythons enclosure",
+          pictureUrl: "https://i.imgur.com/tGd2q1u.jpeg"
+      }
+    ]
+  }
 }
