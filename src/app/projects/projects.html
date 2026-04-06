@@ -1,1 +1,8 @@
-<p>projects works!</p>
+<div class="card-container">
+  <!-- The *ngFor directive repeats this div for every object in the cards array -->
+  <div class="card" *ngFor="let card of projectCards">
+    <h3 >{{ card.name }}</h3>
+    <img mat-card-image [src]="card.pictureUrl" alt="Card image">
+    <p>{{ card.description }}</p>
+  </div>
+</div>
