@@ -13,8 +13,8 @@ export class About {
   readonly name = 'Evelyn Nora Richter';
   readonly title = 'Full‑Stack Developer';
   readonly bio = `
-    A SIUE Graduate, Full Stack Developer, Tinkerer, Fencer, and many other interesting
-    things from the land of Toasted Ravioli
+    A SIUE Graduate, full stack developer, tinkerer, fencer, and many other interesting
+    things from St. Louis, Missouri.
   `;
   readonly skills = [
     'Angular', 'TypeScript', 'RxJS', 'SCSS/CSS', 'Node.js',
