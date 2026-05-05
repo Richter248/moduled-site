@@ -7,7 +7,6 @@ import { Intro } from './intro/intro';
 import { About } from './about/about';
 import { Contact } from './contact/contact';
 import { Projects } from './projects/projects';
-import { WorkHistory } from './work-history/work-history';
 
 @NgModule({
   declarations: [
@@ -16,7 +15,6 @@ import { WorkHistory } from './work-history/work-history';
     About,
     Contact,
     Projects,
-    WorkHistory
   ],
   imports: [
     BrowserModule,
